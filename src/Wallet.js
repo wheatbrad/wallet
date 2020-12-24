@@ -20,7 +20,7 @@ Object.defineProperties(
 )
 
 
-export function WalletFactory(initialValue) {
+export function walletFactory(initialValue) {
     const o = Object.create(Wallet.prototype);
 
     return o;
